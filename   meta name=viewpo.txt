@@ -1,0 +1,102 @@
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>लक्ष्मी के सामान</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff8800;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      margin: 15px;
+      padding: 10px;
+      border-radius: 8px;
+      background: white;
+    }
+    .product img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .product p {
+      margin: 0;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background-color: #f0f0f0;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 10px;
+      padding: 10px;
+    }
+    .order-info {
+      text-align: center;
+      margin: 20px;
+      font-size: 16px;
+    }
+    .order-info a {
+      color: #d80000;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    लक्ष्मी की दुकान येहां छ जानिएं!
+  </header>
+
+  <div class="order-info">
+    WhatsApp के जरिए ऑर्डर करने के लिए:
+    <br>
+    <a href="https://wa.me/9779807465179">9807465179</a><br>
+    <br>
+    eSewa ID: <strong>9807465179</strong>
+  </div>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=तोरी+%E0%A4%95%E0%A0940ेल" alt="Tori ko Tel">
+      <h3>तोरी को तेल</h3>
+      <p>दाम: Rs. 250/L</p>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=रिफाइन+%E0%A4%9F%E0%A0940ल" alt="Refined Tel">
+      <h3>रिफाइन टेल</h3>
+      <p>दाम: Rs. 180/L</p>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=चीनी" alt="Chini">
+      <h3>चीनी</h3>
+      <p>दाम: Rs. 100/kg</p>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=चिकेन" alt="Chicken">
+      <h3>चिकेन</h3>
+      <p>दाम: Rs. 400/kg</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 लक्ष्मी शॉप | संपर्क: raghavendrak594495@gmail.com
+  </footer>
+</body>
+</html>
